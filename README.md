@@ -43,8 +43,8 @@ You can run `predict.py` immediately, and it will use these existing files.
 
 Run this script if you want to retrain the model on the data.
 It reads the data from `train.csv`, trains the model using parameters from `config.py`, and generates/overwrites two files:
-* `reg_model_weights.pth` (Model state)
-* `scaler.pkl` (Data scaler)
+* `reg_model_weights.pth`
+* `scaler.pkl`
 
 ```
 python train.py
