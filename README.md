@@ -7,7 +7,7 @@ The development process consists of two main stages:
 
 2.  **Production Pipeline (`train.py` & `predict.py`):**
     Based on the notebook results, the logic was refactored into two executable Python scripts for a clean and modular workflow.
-    * All file paths and model hyperparameters (Epochs, Learning Rate, Batch Size) are centralised in `config.py`.
+    * All file paths and model hyperparameters are centralised in `config.py`.
     * The scripts rely on `train.csv` and `hidden_test.csv`, which are already included in the root directory. If you wish to use another data, update the paths in `config.py` accordingly.
 
 ### Pre-generated Artifacts (Ready to Run)
