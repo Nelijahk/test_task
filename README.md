@@ -22,7 +22,7 @@ You can run `predict.py` immediately, and it will use these existing files.
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 1.  **Clone the repository:**
     ```
@@ -37,7 +37,7 @@ You can run `predict.py` immediately, and it will use these existing files.
     ```
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Training (`train.py`)
 
