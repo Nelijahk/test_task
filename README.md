@@ -15,7 +15,7 @@ The development process consists of two main stages:
 To make it easier to test the project without retraining from scratch, I have already included the generated artifacts in the repository:
 
 * **`reg_model_weights.pth`**: The trained model weights.
-* **`scaler.pkl`**: The fitted MinMaxScaler (essential for correct prediction).
+* **`scaler.pkl`**: The fitted MinMaxScaler.
 * **`predictions.csv`**: The final output file.
 
 You can run `predict.py` immediately, and it will use these existing files.
