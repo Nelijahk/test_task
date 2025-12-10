@@ -15,7 +15,7 @@ The development process consists of two main stages:
 To make it easier to test the project without retraining from scratch, I have already included the generated artifacts in the repository:
 
 * **`reg_model_weights.pth`**: The trained model weights.
-* **`X_scaler.pkl`**: The fitted MinMaxScaler (essential for correct prediction).
+* **`scaler.pkl`**: The fitted MinMaxScaler (essential for correct prediction).
 * **`predictions.csv`**: The final output file.
 
 You can run `predict.py` immediately, and it will use these existing files.
@@ -44,7 +44,7 @@ You can run `predict.py` immediately, and it will use these existing files.
 Run this script if you want to retrain the model on the data.
 It reads the data from `train.csv`, trains the model using parameters from `config.py`, and generates/overwrites two files:
 * `reg_model_weights.pth` (Model state)
-* `X_scaler.pkl` (Data scaler)
+* `scaler.pkl` (Data scaler)
 
 ```
 python train.py
